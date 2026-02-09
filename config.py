@@ -12,7 +12,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6040503076"))
 PORT = int(os.environ.get("PORT", "8080"))
 
 # ========== DATABASE CONFIG ==========
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://link:link0123@cluster0.wm6zb7x.mongodb.net/?appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "crunchyroll_bot")
 
 # ========== BOT SETTINGS ==========
